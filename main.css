@@ -1,5 +1,71 @@
 /* CSS for Lisa Bough's Portfolio Site, Udacity-Google Scholarship Project */
-body, html {
-
-  
+body {
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
+a {
+  color: black;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-logo, .header-text {
+  width: 50%;
+
+}
+
+.logo {
+   max-width: 130px;
+   /*text-align: left;*/
+   padding-top: 60px;
+ }
+
+.header-text {
+  color: #777676;
+  text-align: right;
+  padding-top: 60px;
+}
+
+h1 {
+  font-weight: 100;
+  padding-bottom: 0px;
+}
+h3 {
+  font-weight: 400;
+  padding-top: 0px;
+}
+
+/* Main */
+.images_600 {
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+/* Footer */
+.featured-work {
+  text-align; right;
+}
+
+.images_250 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.img250 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.responsive {
+  width:100%;
+  height:auto;
+}
+
+
+/*@media (max-width: 400px) {
+  .logo, .header-text {
+    text-align: center;
+  }
+}*/
