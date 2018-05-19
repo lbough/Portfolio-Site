@@ -48,6 +48,7 @@ h3 {
 /* Footer */
 .featured-work {
   text-align: left;
+  margin-left: 20px;
 }
 
 .images_250 {
@@ -55,8 +56,8 @@ h3 {
   flex-wrap: wrap;
 }
 .img250 {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .responsive {
   width:100%;
