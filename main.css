@@ -4,7 +4,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 a {
-  color: black;
+  color: #000;
 }
 
 /* Header */
@@ -47,7 +47,8 @@ h3 {
 
 /* Footer */
 .featured-work {
-  text-align; right;
+  text-align: left;
+  margin-left: 20px;
 }
 
 .images_250 {
@@ -55,17 +56,10 @@ h3 {
   flex-wrap: wrap;
 }
 .img250 {
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 3em;
+  padding-right: 3em;
 }
 .responsive {
   width:100%;
   height:auto;
 }
-
-
-/*@media (max-width: 400px) {
-  .logo, .header-text {
-    text-align: center;
-  }
-}*/
